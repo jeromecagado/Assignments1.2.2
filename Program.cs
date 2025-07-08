@@ -11,6 +11,7 @@
             //{
             //    result += num;
             //}
+            // Testing commit message. 
             int result = 0;
             for (int i = 1; i <= 10; i++)
             {
