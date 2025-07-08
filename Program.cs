@@ -18,9 +18,10 @@
             Console.WriteLine("The first 10 natural numbers is: ");
             for (int i = 1; i <= n; i++)
             {
-                Console.Write(i);
+                Console.Write($"{i} ");
                 result += i;
             }
+            Console.WriteLine();
             Console.WriteLine($"The sum of the first 10 natural numbers is: {result}");
             Console.Read();
         }
