@@ -12,8 +12,10 @@
             //    result += num;
             //}
             // Testing commit message. 
+            Console.WriteLine("Please enter a positive value for n!");
+            int n = Convert.ToInt32(Console.ReadLine());
             int result = 0;
-            for (int i = 1; i <= 10; i++)
+            for (int i = 1; i <= n; i++)
             {
                 result += i;
             }
