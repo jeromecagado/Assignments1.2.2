@@ -15,8 +15,10 @@
             Console.WriteLine("Please enter a positive value for n!");
             int n = Convert.ToInt32(Console.ReadLine());
             int result = 0;
+            Console.WriteLine("The first 10 natural numbers is: ");
             for (int i = 1; i <= n; i++)
             {
+                Console.Write(i);
                 result += i;
             }
             Console.WriteLine($"The sum of the first 10 natural numbers is: {result}");
