@@ -15,7 +15,7 @@
             Console.WriteLine("Please enter a positive value for n!");
             int n = Convert.ToInt32(Console.ReadLine());
             int result = 0;
-            Console.WriteLine("The first 10 natural numbers is: ");
+            Console.WriteLine("The first 10 natural number is: ");
             for (int i = 1; i <= n; i++)
             {
                 Console.Write($"{i} ");
